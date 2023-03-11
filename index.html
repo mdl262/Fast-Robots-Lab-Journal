@@ -6,6 +6,7 @@
 	style="--browser-height:746px;">
 
 <head>
+	<base href="http://www.maxdanli.com/Fast%20Robots/">
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 
@@ -1091,7 +1092,7 @@
 				<!-- /modal content -->
 			</div>
 		</section>
-		<section class="section section-lock-screen" id="lab2">
+		<section class="section section-lock-screen" id="lab2" data-component-list="LockScreenGallery LockScreenParallax">
 
 			<div class="subsection-overflow-wrapper">
 				<div class="section-content">
@@ -1272,7 +1273,7 @@
 				<!-- /modal content -->
 			</div>
 		</section>
-		<section class="section section-safety" style="display: none;"
+		<section style="display:none;" class="section section-safety"
 			>
 			<h2 class="visuallyhidden">Safety Features</h2>
 			<div class="safety-sos-section" data-component-list="SafetyIntroduction"
@@ -1616,9 +1617,57 @@
 				</div>
 			</div>
 		</section>
-		<section class="section section-camera" style="display: none;"
-			data-analytics-section-engagement="name:camera">
-			<div class="camera-header" data-anim-scroll-group="Camera - Header"
+		<section class="section section-camera"  id="lab3">
+			<div class="camera-truedepth">
+				<div class="purple dark no-ui-margin deep-dive-container">
+					<div class="startframe" style="background-image:url(v/tofmain.png); background-size:75%; background-position-x:center; background-repeat: no-repeat;">
+						<div class="section-content hero-content">
+							<div class="row header-content">
+								<h3 class="headline typography-header-3 large-6 small-12 text-rag">Lab 3.</h3>
+								<p class="copy large-5 large-offset-1 small-9 small-offset-0">Real-time distance measurement with IR time-of-flight sensors.</p>
+							</div>
+							<div class="image-container">
+								<div id="overview-camera-true-depth-true-depth-autofocus-1"
+									class="overview-camera-true-depth-true-depth-autofocus photo" >
+								</div>
+							</div>
+							<p class="tout tout-1 large-3 large-offset-3 medium-offset-2 small-8 small-offset-0"
+								data-gradient-callout="">Up to <strong>4 meters range</strong></p>
+						</div>
+						<div class="deep-dive-button-open-container deep-dive-button-container">
+							<button class="deep-dive-button deep-dive-button-open" data-modal-open="deep-dive-truedepth"
+								data-analytics-title="open side scroll | selfies"
+								data-analytics-click="prop3:open side scroll | selfies" data-analytics-intrapage-link=""
+								style="--deep-dive-button-mask-progress:-0.2;">
+								<span class="deep-dive-button-copy typography-shared-deep-dive-cta">Connecting and setting up dual ToF sensors</span>
+								<span class="deep-dive-button-image">
+									<svg class="deep-dive-button-image-arrow" xmlns="http://www.w3.org/2000/svg"
+										viewBox="0 0 63 63">
+										<path class="arrow"
+											d="M45.79,32.24l0,.12s0,.1,0,.14a.91.91,0,0,1-.07.14.53.53,0,0,1-.06.1,1.2,1.2,0,0,1-.17.21l-9.59,9.6a1.4,1.4,0,0,1-2,0,1.38,1.38,0,0,1,0-2l7.21-7.22H20a1.39,1.39,0,1,1,0-2.78H41.06l-7.21-7.22a1.38,1.38,0,0,1,0-2,1.4,1.4,0,0,1,2,0L45.41,31a1.84,1.84,0,0,1,.17.22.53.53,0,0,1,.06.1.91.91,0,0,1,.07.14s0,.09,0,.14,0,.07,0,.12a1.23,1.23,0,0,1,0,.54Z"
+											fill="currentColor"></path>
+									</svg>
+								</span>
+							</button>
+						</div>
+					</div>
+
+					<!-- /modal content -->
+				</div>
+				<div class="section-content">
+					<aside class="aside-container">
+						<div class="aside-item aside-item-privacy" data-component-list="Privacy">
+							<figure class="aside-image aside-image-privacy" data-anim-lazy-image=""></figure>
+							<p class="aside-copy typography-callouts">Range finding using the Arduino SparkFun VL53L1X 4m laser distance sensor library</p>
+						</div>
+						<div class="aside-item aside-item-environment">
+							<figure class="aside-image aside-image-environment" data-anim-lazy-image=""></figure>
+							<p class="aside-copy typography-callouts">In this lab, we compare long-range &lpar;&lt;4m&rpar; and short-range &lpar;&lt;1.3m&rpar; sensing modes. Medium-range isn't available. </p>
+						</div>
+					</aside>
+				</div>
+			</div>
+			<div class="camera-header" style="display:none;" data-anim-scroll-group="Camera - Header"
 				data-component-list="SensorFloat CameraSensorVO">
 				<div class="section-content">
 					<h2 class="visuallyhidden">Camera</h2>
@@ -1801,7 +1850,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="camera-quad-pixel-sensor" data-anim-scroll-group="Camera - Quad Pixel Sensor"
+			<div class="camera-quad-pixel-sensor" style="display:none;" data-anim-scroll-group="Camera - Quad Pixel Sensor"
 				data-component-list="Loupe">
 				<div class="dark purple vertical-type deep-dive-container">
 					<div class="startframe">
@@ -1860,7 +1909,7 @@
 					<!-- /modal content -->
 				</div>
 			</div>
-			<div class="camera-lenses" data-anim-scroll-group="Camera - Lenses" data-component-list="MoodBoard">
+			<div class="camera-lenses" style="display:none;" data-anim-scroll-group="Camera - Lenses" data-component-list="MoodBoard">
 				<div class="dark purple deep-dive-container">
 					<div class="startframe">
 						<div class="section-content">
@@ -2453,7 +2502,7 @@
 					<!-- /modal content -->
 				</div>
 			</div>
-			<div class="camera-low-light" data-anim-scroll-group="Camera - Low Light">
+			<div class="camera-low-light" style="display:none;" data-anim-scroll-group="Camera - Low Light">
 				<div class="dark purple vertical-type deep-dive-container">
 					<div class="startframe">
 						<div class="section-content">
@@ -2760,7 +2809,7 @@
 					</aside>
 				</div>
 			</div>
-			<div class="camera-cinematic-mode" data-anim-scroll-group="Camera - Cinematic Mode">
+			<div class="camera-cinematic-mode" style="display:none;" data-anim-scroll-group="Camera - Cinematic Mode">
 				<div class="section-content">
 					<h3 class="headline typography-header-3 large-11 large-last small-12 small-offset-0"><span>24.
 							Breath­taking. Frames. Per. Second.</span></h3>
@@ -2879,7 +2928,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="camera-action-mode" data-anim-scroll-group="Camera - Action Mode">
+			<div class="camera-action-mode" style="display:none;" data-anim-scroll-group="Camera - Action Mode">
 				<div class="section-content">
 					<h3 class="headline typography-header-3 large-10 large-centered small-12 small-uncentered">Shaky
 						action shot? Fix it in pre.</h3>
@@ -3048,7 +3097,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="camera-three-camera-system" data-anim-scroll-group="Camera - Three Camera System"
+			<div class="camera-three-camera-system" style="display:none;" data-anim-scroll-group="Camera - Three Camera System"
 				data-component-list="ThreeCameraSystem">
 				<div class="section-content">
 					<h3 class="visuallyhidden" tabindex="-1">Three Camera System</h3>
@@ -3233,103 +3282,9 @@
 					</div>
 				</div>
 			</div>
-			<div class="camera-truedepth" data-anim-scroll-group="Camera - TrueDepth">
-				<div class="purple dark no-ui-margin deep-dive-container">
-					<div class="startframe">
-						<div class="section-content hero-content">
-							<div class="row header-content">
-								<h3 class="headline typography-header-3 large-6 small-12 text-rag">A camera in a class
-									by itselfie.</h3>
-								<p class="copy large-5 large-offset-1 small-9 small-offset-0">Snap your sharpest, most
-									colorful close-ups and group shots, thanks to a new TrueDepth front camera with
-									autofocus and a larger aperture.</p>
-							</div>
-							<div class="image-container">
-								<picture id="overview-camera-true-depth-true-depth-autofocus-1"
-									class="overview-camera-true-depth-true-depth-autofocus photo" data-lazy=""
-									data-download-area-keyframe="{&quot;start&quot;:&quot;a0t - 200vh&quot;, &quot;anchors&quot;:[&quot;.camera-truedepth&quot;] }">
-									<source data-empty=""
-										srcset="data:image/gif;base64,R0lGODlhAQABAHAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-										media="(min-width:0px)">
-									<source
-										srcset="./v/true_depth_autofocus__cglq963k0oaa_small.jpg, ./v/true_depth_autofocus__cglq963k0oaa_small_2x.jpg 2x"
-										media="(max-width:734px)">
-									<source
-										srcset="./v/true_depth_autofocus__cglq963k0oaa_medium.jpg, ./v/true_depth_autofocus__cglq963k0oaa_medium_2x.jpg 2x"
-										media="(max-width:1068px)">
-									<source
-										srcset="./v/true_depth_autofocus__cglq963k0oaa_large.jpg, ./v/true_depth_autofocus__cglq963k0oaa_large_2x.jpg 2x"
-										media="(min-width:0px)">
-									<source
-										srcset="./v/true_depth_autofocus__cglq963k0oaa_small.jpg, ./v/true_depth_autofocus__cglq963k0oaa_small_2x.jpg 2x"
-										media="(max-width:734px)">
-									<source
-										srcset="./v/true_depth_autofocus__cglq963k0oaa_medium.jpg, ./v/true_depth_autofocus__cglq963k0oaa_medium_2x.jpg 2x"
-										media="(max-width:1068px)">
-									<source
-										srcset="./v/true_depth_autofocus__cglq963k0oaa_large.jpg, ./v/true_depth_autofocus__cglq963k0oaa_large_2x.jpg 2x"
-										media="(min-width:0px)"><img
-										src="./v/true_depth_autofocus__cglq963k0oaa_large.jpg" onload="__lp(event)"
-										alt="A group selfie of three women posing together. The photo was taken on the TrueDepth camera.">
-								</picture>
-								<noscript>
-									<picture class="overview-camera-true-depth-true-depth-autofocus photo">
-										<source
-											srcset="./v/true_depth_autofocus__cglq963k0oaa_small.jpg, ./v/true_depth_autofocus__cglq963k0oaa_small_2x.jpg 2x"
-											media="(max-width:734px)" />
-										<source
-											srcset="./v/true_depth_autofocus__cglq963k0oaa_medium.jpg, ./v/true_depth_autofocus__cglq963k0oaa_medium_2x.jpg 2x"
-											media="(max-width:1068px)" />
-										<source
-											srcset="./v/true_depth_autofocus__cglq963k0oaa_large.jpg, ./v/true_depth_autofocus__cglq963k0oaa_large_2x.jpg 2x"
-											media="(min-width:0px)" />
-										<img src="./v/true_depth_autofocus__cglq963k0oaa_large.jpg"
-											alt="A group selfie of three women posing together. The photo was taken on the TrueDepth camera.">
-									</picture>
-								</noscript>
-							</div>
-							<p class="tout tout-1 large-3 large-offset-3 medium-offset-2 small-8 small-offset-0"
-								data-gradient-callout="">Up to <strong>2x better low-light photos</strong></p>
-						</div>
-						<div class="deep-dive-button-open-container deep-dive-button-container">
-							<button class="deep-dive-button deep-dive-button-open" data-modal-open="deep-dive-truedepth"
-								data-analytics-title="open side scroll | selfies"
-								data-analytics-click="prop3:open side scroll | selfies" data-analytics-intrapage-link=""
-								style="--deep-dive-button-mask-progress:-0.2;">
-								<span class="deep-dive-button-copy typography-shared-deep-dive-cta">See
-									how<br>spectacular your<br>selfies can look</span>
-								<span class="deep-dive-button-image">
-									<svg class="deep-dive-button-image-arrow" xmlns="http://www.w3.org/2000/svg"
-										viewBox="0 0 63 63">
-										<path class="arrow"
-											d="M45.79,32.24l0,.12s0,.1,0,.14a.91.91,0,0,1-.07.14.53.53,0,0,1-.06.1,1.2,1.2,0,0,1-.17.21l-9.59,9.6a1.4,1.4,0,0,1-2,0,1.38,1.38,0,0,1,0-2l7.21-7.22H20a1.39,1.39,0,1,1,0-2.78H41.06l-7.21-7.22a1.38,1.38,0,0,1,0-2,1.4,1.4,0,0,1,2,0L45.41,31a1.84,1.84,0,0,1,.17.22.53.53,0,0,1,.06.1.91.91,0,0,1,.07.14s0,.09,0,.14,0,.07,0,.12a1.23,1.23,0,0,1,0,.54Z"
-											fill="currentColor"></path>
-									</svg>
-								</span>
-							</button>
-						</div>
-					</div>
-
-					<!-- /modal content -->
-				</div>
-				<div class="section-content">
-					<aside class="aside-container">
-						<div class="aside-item aside-item-privacy" data-component-list="Privacy">
-							<figure class="aside-image aside-image-privacy" data-anim-lazy-image=""></figure>
-							<p class="aside-copy typography-callouts">The TrueDepth camera and A16&nbsp;Bionic also
-								power Face&nbsp;ID, the most secure facial authentication in a smartphone</p>
-						</div>
-						<div class="aside-item aside-item-environment">
-							<figure class="aside-image aside-image-environment" data-anim-lazy-image=""></figure>
-							<p class="aside-copy typography-callouts">iPhone&nbsp;14&nbsp;Pro uses 100% recycled gold
-								wire in all its cameras to reduce mining of precious resources</p>
-						</div>
-					</aside>
-				</div>
-			</div>
 		</section>
-		<section class="section section-chip" style="display: none;"
-			data-analytics-section-engagement="name:chip">
+		<section class="section section-chip" 
+			data-analytics-section-engagement="name:chip" style="display:none">
 			<div class="dark purple vertical-type deep-dive-container">
 				<div class="startframe">
 					<div class="section-content section-content-flex hero-content">
@@ -3559,7 +3514,7 @@
 				</aside>
 			</div>
 		</section>
-		<section class="section section-battery" style="display: none;"
+		<section class="section section-battery" style="display:none"
 			data-analytics-section-engagement="name:battery">
 			<div class="section-content">
 				<h2 class="visuallyhidden">Battery</h2>
@@ -7163,10 +7118,24 @@
 											class="picture-pair picture-pair-overview-display-deep-dive-display-2 image-2 " style="background-image:url(v/btlinux.png); background-size:cover;">
 										</div>
 									</div>
-									<div class="horizontal-scroll-item item-3">
+									<div class="horizontal-scroll-item item-3" style="margin-left:14vw;">
 										<p class="typography-body-2 copy copy-3">I found that storing and sending 50 temperatures and times was too much for the board's memory.<br><br> My workaround was to split the data into 10 equal-sized chunks which I know the board can handle (from the earlier temp function). Then it was a matter of repeating the block of code to send a total of 50 datapoints. </p>
 										<div
 											class="picture-pair picture-pair-overview-display-deep-dive-display-3 image-3 " style="background-image:url(v/btadapter.png); background-repeat:no-repeat;">
+										</div>
+									</div>
+									<div class="horizontal-scroll-item item-3">
+										<p class="copy copy-4 copy-gradient typography-site-claim" style="color:transparent; -webkit-background-clip:text; background-image:linear-gradient(180deg, #ffe993, #eb831c); display:block; font-size:56px;"> The Artemis board has 387 kB of RAM.</p>
+
+										<div
+										class="column column-copy large-5 large-offset-1 small-10 small-offset-1">
+										
+										<p class="typography-body-2 copy copy-2">This means that at 150Hz, the board can store 1307 seconds or nearly 22 minutes of 16-bit values. This is assuming that the entire RAM memory is available and that the data transfer process is perfectly efficient.   
+											
+										</p>
+										</div>
+										<div
+											class="picture-pair picture-pair-overview-display-deep-dive-display-2 image-2 " style="background-image:url(v/btscrollthru.gif); background-size:cover;">
 										</div>
 									</div>
 								</div>
@@ -10065,215 +10034,30 @@
 									<div class="row group-a">
 										<div class="column column-image large-6 small-12">
 											<div
-												class="picture-pair picture-pair-overview-camera-true-depth-deep-dive-true-depth-1 photo">
-												<picture id="overview-camera-true-depth-deep-dive-true-depth-1-1"
-													class="overview-camera-true-depth-deep-dive-true-depth-1 image"
-													data-lazy=""
-													data-download-area-keyframe="{&quot;start&quot;:&quot;t - 200vh&quot;, &quot;end&quot;: &quot;b + 100vh&quot;, &quot;disabledWhen&quot;: [&quot;enhance-deep-dive&quot;, &quot;no-enhance-deep-dive&quot;] }"
-													data-anim-lazy-image-modal="" tabindex="-1">
-													<source data-empty=""
-														srcset="data:image/gif;base64,R0lGODlhAQABAHAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-														media="(min-width:0px)">
-													<source
-														srcset="./v/deep-dive/true_depth_1__gcdmbmqshey6_small.jpg, ./v/deep-dive/true_depth_1__gcdmbmqshey6_small_2x.jpg 2x"
-														media="(max-width: 734px), (max-height:799px)">
-													<source
-														srcset="./v/deep-dive/true_depth_1__gcdmbmqshey6_medium.jpg, ./v/deep-dive/true_depth_1__gcdmbmqshey6_medium_2x.jpg 2x"
-														media="(min-width: 735px) and (max-width: 1068px), (min-height: 800px) and (max-height: 999px)">
-													<source
-														srcset="./v/deep-dive/true_depth_1__gcdmbmqshey6_large.jpg, ./v/deep-dive/true_depth_1__gcdmbmqshey6_large_2x.jpg 2x"
-														media="(min-width:0px)">
-													<source
-														srcset="./v/deep-dive/true_depth_1__gcdmbmqshey6_small.jpg, ./v/deep-dive/true_depth_1__gcdmbmqshey6_small_2x.jpg 2x"
-														media="(max-width: 734px), (max-height:799px)">
-													<source
-														srcset="./v/deep-dive/true_depth_1__gcdmbmqshey6_medium.jpg, ./v/deep-dive/true_depth_1__gcdmbmqshey6_medium_2x.jpg 2x"
-														media="(min-width: 735px) and (max-width: 1068px), (min-height: 800px) and (max-height: 999px)">
-													<source
-														srcset="./v/deep-dive/true_depth_1__gcdmbmqshey6_large.jpg, ./v/deep-dive/true_depth_1__gcdmbmqshey6_large_2x.jpg 2x"
-														media="(min-width:0px)"><img
-														src="./v/true_depth_1__gcdmbmqshey6_large.jpg"
-														onload="__lp(event)"
-														alt="A group selfie of three people at varying distances from the camera. The photo was taken on the TrueDepth camera.">
-												</picture>
-												<noscript>
-													<picture
-														class="overview-camera-true-depth-deep-dive-true-depth-1 image">
-														<source
-															srcset="./v/deep-dive/true_depth_1__gcdmbmqshey6_small.jpg, ./v/deep-dive/true_depth_1__gcdmbmqshey6_small_2x.jpg 2x"
-															media="(max-width: 734px), (max-height:799px)" />
-														<source
-															srcset="./v/deep-dive/true_depth_1__gcdmbmqshey6_medium.jpg, ./v/deep-dive/true_depth_1__gcdmbmqshey6_medium_2x.jpg 2x"
-															media="(min-width: 735px) and (max-width: 1068px), (min-height: 800px) and (max-height: 999px)" />
-														<source
-															srcset="./v/deep-dive/true_depth_1__gcdmbmqshey6_large.jpg, ./v/deep-dive/true_depth_1__gcdmbmqshey6_large_2x.jpg 2x"
-															media="(min-width:0px)" />
-														<img src="./v/deep-dive/true_depth_1__gcdmbmqshey6_large.jpg"
-															alt="A group selfie of three people at varying distances from the camera. The photo was taken on the TrueDepth camera.">
-													</picture>
-												</noscript>
-												<picture
-													id="overview-camera-true-depth-deep-dive-vertical-fallback-true-depth-1-vertical-1"
-													class="overview-camera-true-depth-deep-dive-vertical-fallback-true-depth-1-vertical image-stacked"
-													data-lazy=""
-													data-download-area-keyframe="{&quot;start&quot;:&quot;t - 200vh&quot;, &quot;end&quot;: &quot;b + 100vh&quot;, &quot;disabledWhen&quot;: [&quot;enhance-deep-dive&quot;] }">
-													<source data-empty=""
-														srcset="data:image/gif;base64,R0lGODlhAQABAHAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-														media="(min-width:0px)">
-													<source
-														srcset="./v/deep-dive/vertical-fallback/true_depth_1_vertical__f9q12he24q2q_small.jpg, ./v/deep-dive/vertical-fallback/true_depth_1_vertical__f9q12he24q2q_small_2x.jpg 2x"
-														media="(max-width:734px)">
-													<source
-														srcset="./v/deep-dive/vertical-fallback/true_depth_1_vertical__f9q12he24q2q_medium.jpg, ./v/deep-dive/vertical-fallback/true_depth_1_vertical__f9q12he24q2q_medium_2x.jpg 2x"
-														media="(max-width:1068px)">
-													<source
-														srcset="./v/deep-dive/vertical-fallback/true_depth_1_vertical__f9q12he24q2q_large.jpg, ./v/deep-dive/vertical-fallback/true_depth_1_vertical__f9q12he24q2q_large_2x.jpg 2x"
-														media="(min-width:0px)">
-													<source
-														srcset="./v/deep-dive/vertical-fallback/true_depth_1_vertical__f9q12he24q2q_small.jpg, ./v/deep-dive/vertical-fallback/true_depth_1_vertical__f9q12he24q2q_small_2x.jpg 2x"
-														media="(max-width:734px)">
-													<source
-														srcset="./v/deep-dive/vertical-fallback/true_depth_1_vertical__f9q12he24q2q_medium.jpg, ./v/deep-dive/vertical-fallback/true_depth_1_vertical__f9q12he24q2q_medium_2x.jpg 2x"
-														media="(max-width:1068px)">
-													<source
-														srcset="./v/deep-dive/vertical-fallback/true_depth_1_vertical__f9q12he24q2q_large.jpg, ./v/deep-dive/vertical-fallback/true_depth_1_vertical__f9q12he24q2q_large_2x.jpg 2x"
-														media="(min-width:0px)"><img
-														src="./v/true_depth_1_vertical__f9q12he24q2q_large.jpg"
-														onload="__lp(event)"
-														alt="A group selfie of three people at varying distances from the camera. The photo was taken on the TrueDepth camera.">
-												</picture>
-												<noscript>
-													<picture
-														class="overview-camera-true-depth-deep-dive-vertical-fallback-true-depth-1-vertical image-stacked">
-														<source
-															srcset="./v/deep-dive/vertical-fallback/true_depth_1_vertical__f9q12he24q2q_small.jpg, ./v/deep-dive/vertical-fallback/true_depth_1_vertical__f9q12he24q2q_small_2x.jpg 2x"
-															media="(max-width:734px)" />
-														<source
-															srcset="./v/deep-dive/vertical-fallback/true_depth_1_vertical__f9q12he24q2q_medium.jpg, ./v/deep-dive/vertical-fallback/true_depth_1_vertical__f9q12he24q2q_medium_2x.jpg 2x"
-															media="(max-width:1068px)" />
-														<source
-															srcset="./v/deep-dive/vertical-fallback/true_depth_1_vertical__f9q12he24q2q_large.jpg, ./v/deep-dive/vertical-fallback/true_depth_1_vertical__f9q12he24q2q_large_2x.jpg 2x"
-															media="(min-width:0px)" />
-														<img src="./v/deep-dive/vertical-fallback/true_depth_1_vertical__f9q12he24q2q_large.jpg"
-															alt="A group selfie of three people at varying distances from the camera. The photo was taken on the TrueDepth camera.">
-													</picture>
-												</noscript>
+												class="picture-pair picture-pair-overview-camera-true-depth-deep-dive-true-depth-1 photo" style="background-image:url(v/tofi2c.png)">
 											</div>
 										</div>
 										<div
 											class="column column-copy large-4 large-offset-1 small-10 small-centered small-offset-0">
-											<p class="copy copy-1 typography-body-2">On the count of three, say “we.”
-												Now that the TrueDepth camera can automatically focus on multiple
-												subjects at once, all your selfies — from stunning close-ups to group
-												shots — look their sharpest.</p>
+											<p class="copy copy-1 typography-body-2">My strategy for working with 2 ToF sensors was to turn 1 on using the shutdown pin, change the I2C address, and then turn the second on. I can then interact with each sensor individually without additional interrupts.</p>
 										</div>
 									</div>
 									<div class="row group-b">
 										<div
 											class="column column-copy large-4 large-offset-1 small-10 small-centered small-offset-0">
-											<p class="copy copy-2 typography-body-2">And the larger aperture lets in
-												lots more light, capturing brighter color and finer detail in low-light
-												scenes.</p>
-											<p class="tout tout-2"><strong>38% better light‑gathering
-													performance</strong> for more detail and less noise in photos and
-												videos</p>
+											<p class="copy copy-2 typography-body-2">These ToF sensors would be mounted at the front and back of the robot. Obstacles could be missed if they are just outside the ray of the infrared detectors though.</p>
+											<p class="tout tout-2"><strong>Long mode was consistently more accurate</strong> at &gt;1m vs. short mode, and matches performance for short distances.</p>
 										</div>
 										<div
-											class="column column-image large-6 large-offset-1 medium-offset-0 small-12 small-offset-0">
+											class="column column-image large-6 large-offset-1 medium-offset-0 small-12 small-offset-0" style="z-index: 1;">
 											<div
 												class="picture-pair picture-pair-overview-camera-true-depth-deep-dive-true-depth-2 photo">
 												<picture id="overview-camera-true-depth-deep-dive-true-depth-2-1"
 													class="overview-camera-true-depth-deep-dive-true-depth-2 image"
 													data-lazy=""
 													data-download-area-keyframe="{&quot;start&quot;:&quot;t - 200vh&quot;, &quot;end&quot;: &quot;b + 100vh&quot;, &quot;disabledWhen&quot;: [&quot;enhance-deep-dive&quot;, &quot;no-enhance-deep-dive&quot;] }"
-													data-anim-lazy-image-modal="" tabindex="-1">
-													<source data-empty=""
-														srcset="data:image/gif;base64,R0lGODlhAQABAHAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-														media="(min-width:0px)">
-													<source
-														srcset="./v/deep-dive/true_depth_2__bq7bijx3apiu_small.jpg, ./v/deep-dive/true_depth_2__bq7bijx3apiu_small_2x.jpg 2x"
-														media="(max-width: 734px), (max-height:799px)">
-													<source
-														srcset="./v/deep-dive/true_depth_2__bq7bijx3apiu_medium.jpg, ./v/deep-dive/true_depth_2__bq7bijx3apiu_medium_2x.jpg 2x"
-														media="(min-width: 735px) and (max-width: 1068px), (min-height: 800px) and (max-height: 999px)">
-													<source
-														srcset="./v/deep-dive/true_depth_2__bq7bijx3apiu_large.jpg, ./v/deep-dive/true_depth_2__bq7bijx3apiu_large_2x.jpg 2x"
-														media="(min-width:0px)">
-													<source
-														srcset="./v/deep-dive/true_depth_2__bq7bijx3apiu_small.jpg, ./v/deep-dive/true_depth_2__bq7bijx3apiu_small_2x.jpg 2x"
-														media="(max-width: 734px), (max-height:799px)">
-													<source
-														srcset="./v/deep-dive/true_depth_2__bq7bijx3apiu_medium.jpg, ./v/deep-dive/true_depth_2__bq7bijx3apiu_medium_2x.jpg 2x"
-														media="(min-width: 735px) and (max-width: 1068px), (min-height: 800px) and (max-height: 999px)">
-													<source
-														srcset="./v/deep-dive/true_depth_2__bq7bijx3apiu_large.jpg, ./v/deep-dive/true_depth_2__bq7bijx3apiu_large_2x.jpg 2x"
-														media="(min-width:0px)"><img
-														src="./v/true_depth_2__bq7bijx3apiu_large.jpg"
-														onload="__lp(event)"
-														alt="A portrait of a woman. The shot was taken in low-light on the TrueDepth camera.">
-												</picture>
-												<noscript>
-													<picture
-														class="overview-camera-true-depth-deep-dive-true-depth-2 image">
-														<source
-															srcset="./v/deep-dive/true_depth_2__bq7bijx3apiu_small.jpg, ./v/deep-dive/true_depth_2__bq7bijx3apiu_small_2x.jpg 2x"
-															media="(max-width: 734px), (max-height:799px)" />
-														<source
-															srcset="./v/deep-dive/true_depth_2__bq7bijx3apiu_medium.jpg, ./v/deep-dive/true_depth_2__bq7bijx3apiu_medium_2x.jpg 2x"
-															media="(min-width: 735px) and (max-width: 1068px), (min-height: 800px) and (max-height: 999px)" />
-														<source
-															srcset="./v/deep-dive/true_depth_2__bq7bijx3apiu_large.jpg, ./v/deep-dive/true_depth_2__bq7bijx3apiu_large_2x.jpg 2x"
-															media="(min-width:0px)" />
-														<img src="./v/deep-dive/true_depth_2__bq7bijx3apiu_large.jpg"
-															alt="A portrait of a woman. The shot was taken in low-light on the TrueDepth camera.">
+													data-anim-lazy-image-modal="" tabindex="-1" style="background-image:url(v/tofexp.png); background-size: contain; width:550px; background-repeat: no-repeat;">
 													</picture>
-												</noscript>
-												<picture
-													id="overview-camera-true-depth-deep-dive-vertical-fallback-true-depth-2-vertical-1"
-													class="overview-camera-true-depth-deep-dive-vertical-fallback-true-depth-2-vertical image-stacked"
-													data-lazy=""
-													data-download-area-keyframe="{&quot;start&quot;:&quot;t - 200vh&quot;, &quot;end&quot;: &quot;b + 100vh&quot;, &quot;disabledWhen&quot;: [&quot;enhance-deep-dive&quot;] }">
-													<source data-empty=""
-														srcset="data:image/gif;base64,R0lGODlhAQABAHAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-														media="(min-width:0px)">
-													<source
-														srcset="./v/deep-dive/vertical-fallback/true_depth_2_vertical__dzhgzcqbk5oy_small.jpg, ./v/deep-dive/vertical-fallback/true_depth_2_vertical__dzhgzcqbk5oy_small_2x.jpg 2x"
-														media="(max-width:734px)">
-													<source
-														srcset="./v/deep-dive/vertical-fallback/true_depth_2_vertical__dzhgzcqbk5oy_medium.jpg, ./v/deep-dive/vertical-fallback/true_depth_2_vertical__dzhgzcqbk5oy_medium_2x.jpg 2x"
-														media="(max-width:1068px)">
-													<source
-														srcset="./v/deep-dive/vertical-fallback/true_depth_2_vertical__dzhgzcqbk5oy_large.jpg, ./v/deep-dive/vertical-fallback/true_depth_2_vertical__dzhgzcqbk5oy_large_2x.jpg 2x"
-														media="(min-width:0px)">
-													<source
-														srcset="./v/deep-dive/vertical-fallback/true_depth_2_vertical__dzhgzcqbk5oy_small.jpg, ./v/deep-dive/vertical-fallback/true_depth_2_vertical__dzhgzcqbk5oy_small_2x.jpg 2x"
-														media="(max-width:734px)">
-													<source
-														srcset="./v/deep-dive/vertical-fallback/true_depth_2_vertical__dzhgzcqbk5oy_medium.jpg, ./v/deep-dive/vertical-fallback/true_depth_2_vertical__dzhgzcqbk5oy_medium_2x.jpg 2x"
-														media="(max-width:1068px)">
-													<source
-														srcset="./v/deep-dive/vertical-fallback/true_depth_2_vertical__dzhgzcqbk5oy_large.jpg, ./v/deep-dive/vertical-fallback/true_depth_2_vertical__dzhgzcqbk5oy_large_2x.jpg 2x"
-														media="(min-width:0px)"><img
-														src="./v/true_depth_2_vertical__dzhgzcqbk5oy_large.jpg"
-														onload="__lp(event)"
-														alt="A portrait of a woman. The shot was taken in low-light on the TrueDepth camera.">
-												</picture>
-												<noscript>
-													<picture
-														class="overview-camera-true-depth-deep-dive-vertical-fallback-true-depth-2-vertical image-stacked">
-														<source
-															srcset="./v/deep-dive/vertical-fallback/true_depth_2_vertical__dzhgzcqbk5oy_small.jpg, ./v/deep-dive/vertical-fallback/true_depth_2_vertical__dzhgzcqbk5oy_small_2x.jpg 2x"
-															media="(max-width:734px)" />
-														<source
-															srcset="./v/deep-dive/vertical-fallback/true_depth_2_vertical__dzhgzcqbk5oy_medium.jpg, ./v/deep-dive/vertical-fallback/true_depth_2_vertical__dzhgzcqbk5oy_medium_2x.jpg 2x"
-															media="(max-width:1068px)" />
-														<source
-															srcset="./v/deep-dive/vertical-fallback/true_depth_2_vertical__dzhgzcqbk5oy_large.jpg, ./v/deep-dive/vertical-fallback/true_depth_2_vertical__dzhgzcqbk5oy_large_2x.jpg 2x"
-															media="(min-width:0px)" />
-														<img src="./v/deep-dive/vertical-fallback/true_depth_2_vertical__dzhgzcqbk5oy_large.jpg"
-															alt="A portrait of a woman. The shot was taken in low-light on the TrueDepth camera.">
-													</picture>
-												</noscript>
 											</div>
 										</div>
 									</div>
@@ -10285,95 +10069,52 @@
 												<picture id="overview-camera-true-depth-deep-dive-true-depth-3-1"
 													class="overview-camera-true-depth-deep-dive-true-depth-3 image"
 													data-lazy=""
+													style="background-image:url(v/tofexp2.jpg); background-size:140%; background-position: bottom;"
 													data-download-area-keyframe="{&quot;start&quot;:&quot;t - 200vh&quot;, &quot;end&quot;: &quot;b + 100vh&quot;, &quot;disabledWhen&quot;: [&quot;enhance-deep-dive&quot;, &quot;no-enhance-deep-dive&quot;] }"
 													data-anim-lazy-image-modal="" tabindex="-1">
-													<source data-empty=""
-														srcset="data:image/gif;base64,R0lGODlhAQABAHAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-														media="(min-width:0px)">
-													<source
-														srcset="./v/deep-dive/true_depth_3__gia50q3b9liu_small.jpg, ./v/deep-dive/true_depth_3__gia50q3b9liu_small_2x.jpg 2x"
-														media="(max-width: 734px), (max-height:799px)">
-													<source
-														srcset="./v/deep-dive/true_depth_3__gia50q3b9liu_medium.jpg, ./v/deep-dive/true_depth_3__gia50q3b9liu_medium_2x.jpg 2x"
-														media="(min-width: 735px) and (max-width: 1068px), (min-height: 800px) and (max-height: 999px)">
-													<source
-														srcset="./v/deep-dive/true_depth_3__gia50q3b9liu_large.jpg, ./v/deep-dive/true_depth_3__gia50q3b9liu_large_2x.jpg 2x"
-														media="(min-width:0px)">
-													<source
-														srcset="./v/deep-dive/true_depth_3__gia50q3b9liu_small.jpg, ./v/deep-dive/true_depth_3__gia50q3b9liu_small_2x.jpg 2x"
-														media="(max-width: 734px), (max-height:799px)">
-													<source
-														srcset="./v/deep-dive/true_depth_3__gia50q3b9liu_medium.jpg, ./v/deep-dive/true_depth_3__gia50q3b9liu_medium_2x.jpg 2x"
-														media="(min-width: 735px) and (max-width: 1068px), (min-height: 800px) and (max-height: 999px)">
-													<source
-														srcset="./v/deep-dive/true_depth_3__gia50q3b9liu_large.jpg, ./v/deep-dive/true_depth_3__gia50q3b9liu_large_2x.jpg 2x"
-														media="(min-width:0px)"><img
-														src="./v/true_depth_3__gia50q3b9liu_large.jpg"
-														onload="__lp(event)"
-														alt="A close-up selfie of a woman. The shot was taken in low-light on the TrueDepth camera.">
 												</picture>
-												<noscript>
-													<picture
-														class="overview-camera-true-depth-deep-dive-true-depth-3 image">
-														<source
-															srcset="./v/deep-dive/true_depth_3__gia50q3b9liu_small.jpg, ./v/deep-dive/true_depth_3__gia50q3b9liu_small_2x.jpg 2x"
-															media="(max-width: 734px), (max-height:799px)" />
-														<source
-															srcset="./v/deep-dive/true_depth_3__gia50q3b9liu_medium.jpg, ./v/deep-dive/true_depth_3__gia50q3b9liu_medium_2x.jpg 2x"
-															media="(min-width: 735px) and (max-width: 1068px), (min-height: 800px) and (max-height: 999px)" />
-														<source
-															srcset="./v/deep-dive/true_depth_3__gia50q3b9liu_large.jpg, ./v/deep-dive/true_depth_3__gia50q3b9liu_large_2x.jpg 2x"
-															media="(min-width:0px)" />
-														<img src="./v/deep-dive/true_depth_3__gia50q3b9liu_large.jpg"
-															alt="A close-up selfie of a woman. The shot was taken in low-light on the TrueDepth camera.">
-													</picture>
-												</noscript>
-												<picture
-													id="overview-camera-true-depth-deep-dive-vertical-fallback-true-depth-3-vertical-1"
-													class="overview-camera-true-depth-deep-dive-vertical-fallback-true-depth-3-vertical image-stacked"
+											</div>
+										</div>
+									</div>
+									<div class="row group-a">
+										<div class="column column-image large-6 small-12">
+											<div
+												class="picture-pair picture-pair-overview-camera-true-depth-deep-dive-true-depth-1 photo" style="background-image:url(v/tofranging.png); background-size:contain; background-repeat: no-repeat;">
+											</div>
+										</div>
+										<div
+											class="column column-copy large-4 large-offset-1 small-10 small-centered small-offset-0">
+											<p class="copy copy-1 typography-body-2">The fastest data speeds I achieved was 60ms between samples. The main bottleneck is not the code or print statements but the latency of the sensors themselves. </p>
+										</div>
+									</div>
+									<div class="row group-b">
+										<div
+											class="column column-copy large-4 large-offset-1 small-10 small-centered small-offset-0">
+											<p class="tout tout-2"><strong>Real-time ToF over Bluetooth</strong> in 166 Hz batches.</p>
+											<p class="copy copy-2 typography-body-2">I added the GET_TOF command case to the Lab 2 code, and with a new callback, I was able to transmit ToF data from both sensors.</p>
+										</div>
+										<div
+											class="column column-image large-6 large-offset-1 medium-offset-0 small-12 small-offset-0" style="z-index: 1;">
+											<div
+												class="picture-pair picture-pair-overview-camera-true-depth-deep-dive-true-depth-2 photo">
+												<picture id="overview-camera-true-depth-deep-dive-true-depth-2-1"
+													class="overview-camera-true-depth-deep-dive-true-depth-2 image"
 													data-lazy=""
-													data-download-area-keyframe="{&quot;start&quot;:&quot;t - 200vh&quot;, &quot;end&quot;: &quot;b + 100vh&quot;, &quot;disabledWhen&quot;: [&quot;enhance-deep-dive&quot;] }">
-													<source data-empty=""
-														srcset="data:image/gif;base64,R0lGODlhAQABAHAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-														media="(min-width:0px)">
-													<source
-														srcset="./v/deep-dive/vertical-fallback/true_depth_3_vertical__b0ng4yr9zpea_small.jpg, ./v/deep-dive/vertical-fallback/true_depth_3_vertical__b0ng4yr9zpea_small_2x.jpg 2x"
-														media="(max-width:734px)">
-													<source
-														srcset="./v/deep-dive/vertical-fallback/true_depth_3_vertical__b0ng4yr9zpea_medium.jpg, ./v/deep-dive/vertical-fallback/true_depth_3_vertical__b0ng4yr9zpea_medium_2x.jpg 2x"
-														media="(max-width:1068px)">
-													<source
-														srcset="./v/deep-dive/vertical-fallback/true_depth_3_vertical__b0ng4yr9zpea_large.jpg, ./v/deep-dive/vertical-fallback/true_depth_3_vertical__b0ng4yr9zpea_large_2x.jpg 2x"
-														media="(min-width:0px)">
-													<source
-														srcset="./v/deep-dive/vertical-fallback/true_depth_3_vertical__b0ng4yr9zpea_small.jpg, ./v/deep-dive/vertical-fallback/true_depth_3_vertical__b0ng4yr9zpea_small_2x.jpg 2x"
-														media="(max-width:734px)">
-													<source
-														srcset="./v/deep-dive/vertical-fallback/true_depth_3_vertical__b0ng4yr9zpea_medium.jpg, ./v/deep-dive/vertical-fallback/true_depth_3_vertical__b0ng4yr9zpea_medium_2x.jpg 2x"
-														media="(max-width:1068px)">
-													<source
-														srcset="./v/deep-dive/vertical-fallback/true_depth_3_vertical__b0ng4yr9zpea_large.jpg, ./v/deep-dive/vertical-fallback/true_depth_3_vertical__b0ng4yr9zpea_large_2x.jpg 2x"
-														media="(min-width:0px)"><img
-														src="./v/true_depth_3_vertical__b0ng4yr9zpea_large.jpg"
-														onload="__lp(event)"
-														alt="A close-up selfie of a woman. The shot was taken in low-light on the TrueDepth camera.">
-												</picture>
-												<noscript>
-													<picture
-														class="overview-camera-true-depth-deep-dive-vertical-fallback-true-depth-3-vertical image-stacked">
-														<source
-															srcset="./v/deep-dive/vertical-fallback/true_depth_3_vertical__b0ng4yr9zpea_small.jpg, ./v/deep-dive/vertical-fallback/true_depth_3_vertical__b0ng4yr9zpea_small_2x.jpg 2x"
-															media="(max-width:734px)" />
-														<source
-															srcset="./v/deep-dive/vertical-fallback/true_depth_3_vertical__b0ng4yr9zpea_medium.jpg, ./v/deep-dive/vertical-fallback/true_depth_3_vertical__b0ng4yr9zpea_medium_2x.jpg 2x"
-															media="(max-width:1068px)" />
-														<source
-															srcset="./v/deep-dive/vertical-fallback/true_depth_3_vertical__b0ng4yr9zpea_large.jpg, ./v/deep-dive/vertical-fallback/true_depth_3_vertical__b0ng4yr9zpea_large_2x.jpg 2x"
-															media="(min-width:0px)" />
-														<img src="./v/deep-dive/vertical-fallback/true_depth_3_vertical__b0ng4yr9zpea_large.jpg"
-															alt="A close-up selfie of a woman. The shot was taken in low-light on the TrueDepth camera.">
+													data-download-area-keyframe="{&quot;start&quot;:&quot;t - 200vh&quot;, &quot;end&quot;: &quot;b + 100vh&quot;, &quot;disabledWhen&quot;: [&quot;enhance-deep-dive&quot;, &quot;no-enhance-deep-dive&quot;] }"
+													data-anim-lazy-image-modal="" tabindex="-1" style="background-image:url(v/tofard.png); background-size: contain; width:550px; background-repeat: no-repeat;">
 													</picture>
-												</noscript>
+											</div>
+										</div>
+										<div
+											class="column column-image large-6 large-offset-1 medium-offset-0 small-12 small-offset-0" style="z-index: 1;">
+											<div
+												class="picture-pair picture-pair-overview-camera-true-depth-deep-dive-true-depth-2 photo">
+												<picture id="overview-camera-true-depth-deep-dive-true-depth-2-1"
+													class="overview-camera-true-depth-deep-dive-true-depth-2 image"
+													data-lazy=""
+													data-download-area-keyframe="{&quot;start&quot;:&quot;t - 200vh&quot;, &quot;end&quot;: &quot;b + 100vh&quot;, &quot;disabledWhen&quot;: [&quot;enhance-deep-dive&quot;, &quot;no-enhance-deep-dive&quot;] }"
+													data-anim-lazy-image-modal="" tabindex="-1" style="background-image:url(v/tofbt.png); background-size: contain; width:550px; background-repeat: no-repeat; transform:translateY(-100px);">
+													</picture>
 											</div>
 										</div>
 									</div>
